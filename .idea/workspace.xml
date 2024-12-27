@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f935f6c8-d313-46d4-ae31-20bb2c9d8e89" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Drivers_Alert.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/check_duplicate_labels.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/driver_distraction_alert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/driver_drowsiness_alert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image_collector.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/yolov5/dataset.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5" beforeDir="false" afterPath="$PROJECT_DIR$/yolov5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yolov5/data/images/bus.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/yolov5/data/images/zidane.jpg" beforeDir="false" />
     </list>
@@ -31,7 +24,9 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_COMMON_BRANCH" value="master" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
   "lastFilter": {
@@ -66,7 +61,7 @@
     "Python.image_collector.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "drivers__alert__Dec__27__2024",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
