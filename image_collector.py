@@ -4,34 +4,15 @@ import uuid   # Unique identifier
 import os
 import time
 import torch
-from matplotlib import pyplot as plt
-import numpy as np
 import cv2
 model = torch.hub.load('ultralytics/yolov5', 'yolov5s')
 
-
-'''
-# Images
-imgs = ['https://ultralytics.com/images/zidane.jpg']  # batch of images
-results = model(imgs)
-results.print()
-
-#%matplotlib inline
-
-plt.imshow(np.squeeze(results.render()))
-#plt.imshow(results.render())
-plt.show(block = True)
-plt.interactive(False)
-
-print(results.render())
-#classification = np.argmax(results, axis=1)
-print(results.pandas().xyxy[0])
-'''
-IMAGES_PATH = os.path.join('yolov5/data', 'images/validation') #/data/images
-#print(IMAGES_PATH)
+# Run the code two times with local IMAGES_PATH = 'yolov5/data/images/validation' and 'yolov5/data/images/train'
+IMAGES_PATH = os.path.join('yolov5/data', 'images/validation')
 labels = ['straight', 'away']
 number_imgs = 10
 
+# Start Camera
 cap = cv2.VideoCapture(0)
 # Loop through labels
 for label in labels:
