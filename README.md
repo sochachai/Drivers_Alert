@@ -16,7 +16,7 @@ I plan to merge the two alert system into one. This has not been done yet. <br>
 3. A threshold of culmulative drowsiness level is set to prevent false alarm of drowsiness in case of blinks. <br>
 
 ### Distraction Alert
-Model is trained with camera-shot images invoked by OpenCV and 200 epochs are run. The following describes the training process.
+Model is trained with camera-shot images invoked by OpenCV and 200 epochs are run. The following describes the training process. <br>
 0. "shape_predictor_68_face_landmarks.dat" cannot detect side faces. I choose to use YOLO for the purpose of distraction alert. <br>
 1. git clone https://github.com/ultralytics/yolov5 (to the local Pycharm Project) <br>
 2. git clone https://github.com/tzutalin/labelImg (to the local Pycharm Project) <br>
@@ -26,7 +26,12 @@ Model is trained with camera-shot images invoked by OpenCV and 200 epochs are ru
 6. cd to the local directory "yolov5" and run "python train.py --img 320 --batch 16 --epochs 200 --data dataset.yml --weights yolov5s.pt --workers 0" <br>
 
 ### Results
-The drowsiness alert system works pretty well (even with glasses on driver's face). The distraction alert system trained with YOLO also works as the app screenshots have shown but there is much room to improve.
+The drowsiness alert system works pretty well (even with glasses on driver's face). The distraction alert system trained with YOLO also works as the app screenshots have shown but there is much room to improve. <br>
+For the model training evaluation, please refer to the files in YOLO_model_training_evaluation for details. As the results.csv has shown, the validation accuracy improves over time as epoch number increases. <br>
+
+### Notes
+1. The local content of yolov5 and labelImg cannot be uploaded in this repository. Please refer to the screenshot "Project_Infrastructure" on the configuration of the local Python Project. <br>
+2. Sometimes when mislabelling(ususally duplicated labeling) occured during the image labeling step described in Step 4 in the section of "Disctraction Alert", the distraction alert app fails to run.  In this case, cd to yolov5 and run "python check_duplicate_labeling.py" to see if there exists any duplicated labeling of the images. 
 
 
 
