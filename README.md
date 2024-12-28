@@ -30,7 +30,7 @@ The drowsiness alert system works pretty well (even with glasses on driver's fac
 For the model training evaluation, please refer to the files in YOLO_model_training_evaluation for details. As the results.csv has shown, the validation accuracy improves over time as epoch number increases. <br>
 
 ### Notes
-1. The local content of yolov5 and labelImg cannot be uploaded in this repository. Please refer to the screenshot "Project_Infrastructure" on the configuration of the local Python Project. <br>
+1. The local content of yolov5 and labelImg cannot be uploaded in this repository. Please refer to the screenshot "Project_Infrastructure.png" on the configuration of the local Python Project. <br>
 2. Sometimes when mislabelling(ususally duplicated labeling) occured during the image labeling step described in Step 4 in the section of "Disctraction Alert", the distraction alert app fails to run.  In this case, cd to yolov5 and run "python check_duplicate_labeling.py" to see if there exists any duplicated labeling of the images. 
 
 
