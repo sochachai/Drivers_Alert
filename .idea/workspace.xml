@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f935f6c8-d313-46d4-ae31-20bb2c9d8e89" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/yolov5/dataset.yml" afterDir="false" />
+    <list default="true" id="f935f6c8-d313-46d4-ae31-20bb2c9d8e89" name="Changes" comment="Commit Dec 27 2024">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov5" beforeDir="false" afterPath="$PROJECT_DIR$/yolov5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov5/data/images/bus.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov5/data/images/zidane.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image_collector.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_collector.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,21 +25,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "sochachai"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sochachai&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ultralytics/yolov5",
-    "accountId": "a22a5791-08ab-4088-922e-3ac38f7489b3"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ultralytics/yolov5&quot;,
+    &quot;accountId&quot;: &quot;a22a5791-08ab-4088-922e-3ac38f7489b3&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2qPYDTSTqiLYa6dMNV0LfTnNfNj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -62,6 +59,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "drivers__alert__Dec__27__2024",
+    "last_opened_file_path": "/Users/weicongsu/PycharmProjects/Drivers_Alert",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
@@ -81,6 +79,19 @@
       <option name="presentableId" value="Default" />
       <updated>1734565557982</updated>
     </task>
+    <task id="LOCAL-00001" summary="Commit Dec 27 2024">
+      <option name="closed" value="true" />
+      <created>1735283658379</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1735283658379</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit Dec 27 2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit Dec 27 2024" />
   </component>
 </project>
