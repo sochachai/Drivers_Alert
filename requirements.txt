@@ -9,3 +9,5 @@ opencv-python-headless
 matplotlib
 scipy
 dlib==19.24.6
+pyttsx3
+random
